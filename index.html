@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Product App</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <a href="#" class="nav-brand">Product App</a>
+    </nav>
+
+    <div class="container">
+        <form class="form">
+            <div class="form-container">
+                <label for="product-name" class="product-name">Product Name</label>
+                <input type="text" name="product-name" id="product-name">
+            </div>
+            <div class="form-container">
+                <label for="product-price" class="product-price">Product Name</label>
+                <input type="text" name="product-price" id="product-price">
+            </div>
+            <div class="form-container">
+                <label for="product-stock" class="product-stock">Product Name</label>
+                <input type="number" min="1" name="producstock" id="product-stock">
+            </div>
+        </form>
+    </div>
+
+    <ul class="container">
+        <li class="product-list"><strong>Name: </strong> PC <strong>Price: </strong>15.00 <strong>Stock:</strong> 5 <i style="font-size:24px" class="fa">&#xf1f8;</i></li>
+    </ul>
+
+    <div class="success">Item has been added successfully</div>
+    <div class="delete">Iten has been deleted successfully</div>
+
+<script src="app.js"></script>  
+</body>
+</html>
